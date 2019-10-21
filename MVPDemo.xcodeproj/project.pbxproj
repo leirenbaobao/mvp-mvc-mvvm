@@ -13,6 +13,7 @@
 		4AA27855235E0EE100185172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA27854235E0EE100185172 /* Assets.xcassets */; };
 		4AA27858235E0EE100185172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA27856235E0EE100185172 /* LaunchScreen.storyboard */; };
 		4AA2785B235E0EE200185172 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2785A235E0EE200185172 /* main.m */; };
+		4AA27865235E110200185172 /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA27864235E110200185172 /* Presenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,10 @@
 		4AA27857235E0EE100185172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AA27859235E0EE100185172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AA2785A235E0EE200185172 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AA27861235E0F8500185172 /* IView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IView.h; sourceTree = "<group>"; };
+		4AA27862235E0FAE00185172 /* IPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPresenter.h; sourceTree = "<group>"; };
+		4AA27863235E110200185172 /* Presenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		4AA27864235E110200185172 /* Presenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,10 @@
 				4AA27856235E0EE100185172 /* LaunchScreen.storyboard */,
 				4AA27859235E0EE100185172 /* Info.plist */,
 				4AA2785A235E0EE200185172 /* main.m */,
+				4AA27861235E0F8500185172 /* IView.h */,
+				4AA27862235E0FAE00185172 /* IPresenter.h */,
+				4AA27863235E110200185172 /* Presenter.h */,
+				4AA27864235E110200185172 /* Presenter.m */,
 			);
 			path = MVPDemo;
 			sourceTree = "<group>";
@@ -143,6 +152,7 @@
 			files = (
 				4AA27850235E0EE000185172 /* ViewController.m in Sources */,
 				4AA2785B235E0EE200185172 /* main.m in Sources */,
+				4AA27865235E110200185172 /* Presenter.m in Sources */,
 				4AA2784D235E0EE000185172 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
